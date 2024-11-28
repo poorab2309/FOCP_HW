@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// Q1: Check Armstrong Number
+// Q1
 void checkArmstrong() {
     int num, originalNum, sum = 0, digitCount = 0;
     printf("Enter a number to check if it's an Armstrong number: ");
@@ -26,7 +26,7 @@ void checkArmstrong() {
         printf("%d is not an Armstrong number.\n", num);
 }
 
-// Q2: Calculate HCF
+// Q2
 void calculateHCF() {
     int a, b;
     printf("Enter two integers to calculate their HCF: ");
@@ -41,7 +41,7 @@ void calculateHCF() {
     printf("The HCF of %d and %d is %d.\n", originalA, originalB, a);
 }
 
-// Q3: Subtract Two Integers Without Using Minus Operator
+// Q3
 void subtractNumbers() {
     int a, b;
     printf("Enter two integers to subtract (a - b): ");
@@ -50,7 +50,7 @@ void subtractNumbers() {
     printf("The result of %d - %d is %d.\n", a, b, result);
 }
 
-// Q4: Swap Two Numbers Using 4 Methods
+// Q4
 void swapNumbers() {
     int a, b, temp;
     printf("Enter two integers to swap: ");
@@ -93,7 +93,7 @@ void swapNumbers() {
     printf("After Method 4 (Using XOR): a = %d, b = %d\n", a, b);
 }
 
-// Q5: Check Perfect Number
+// Q5
 void checkPerfectNumber() {
     int num, sum = 0;
     printf("Enter a number to check if it's a Perfect Number: ");
@@ -110,7 +110,7 @@ void checkPerfectNumber() {
         printf("%d is not a Perfect Number.\n", num);
 }
 
-// Q6: Determine Quadrant of a Point
+// Q6
 void findQuadrant() {
     int x, y;
     printf("Enter the x and y coordinates: ");
@@ -128,7 +128,7 @@ void findQuadrant() {
         printf("The point (%d, %d) lies in the Fourth Quadrant.\n", x, y);
 }
 
-// Q7: Decimal to Binary and Binary to Decimal Conversion
+// Q7
 void decimalToBinary(int num) {
     int binary = 0, base = 1;
     while (num > 0) {
@@ -164,7 +164,7 @@ void binaryDecimalConversion() {
         printf("Invalid choice.\n");
 }
 
-// Q8: Print Pattern
+// Q8
 void printPattern() {
     int rows;
     printf("Enter the number of rows: ");
@@ -178,7 +178,7 @@ void printPattern() {
     }
 }
 
-// Q9: Print Pyramid Pattern
+// Q9
 void printPyramid() {
     int rows;
     printf("Enter the number of rows: ");
@@ -196,7 +196,7 @@ void printPyramid() {
     }
 }
 
-// Q10: Print Pascal’s Triangle
+// Q10
 void printPascalsTriangle() {
     int rows, coef = 1;
     printf("Enter the number of rows: ");
