@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-// Q1: Increase every student mark by 5
+// Q1
 void increaseMarks(int marks[], int n) {
     for(int i = 0; i < n; i++) {
         marks[i] += 5;
@@ -13,7 +13,7 @@ void increaseMarks(int marks[], int n) {
     }
 }
 
-// Q2: Print grades based on marks
+// Q2
 void printGrades(int marks[], int n) {
     for(int i = 0; i < n; i++) {
         printf("The grade of student %d is: ", i + 1);
@@ -24,7 +24,7 @@ void printGrades(int marks[], int n) {
     }
 }
 
-// Q3: Find who scored the first 99
+// Q3
 void first99(int marks[], int n) {
     for(int i = 0; i < n; i++) {
         if(marks[i] == 99) {
@@ -35,7 +35,7 @@ void first99(int marks[], int n) {
     printf("No student scored 99.\n");
 }
 
-// Q4: Find who and how many scored 99
+// Q4
 void count99(int marks[], int n) {
     int count = 0;
     for(int i = 0; i < n; i++) {
@@ -47,7 +47,7 @@ void count99(int marks[], int n) {
     printf("Total number of students who scored 99: %d\n", count);
 }
 
-// Q5: Find the sum of all scores
+// Q5
 void sumScores(int marks[], int n) {
     int sum = 0;
     for(int i = 0; i < n; i++) {
@@ -56,7 +56,7 @@ void sumScores(int marks[], int n) {
     printf("The sum of scores is: %d\n", sum);
 }
 
-// Q6: Find the average score
+// Q6
 void averageScore(int marks[], int n) {
     int sum = 0;
     for(int i = 0; i < n; i++) {
@@ -65,7 +65,7 @@ void averageScore(int marks[], int n) {
     printf("The average score is: %.2f\n", (float)sum / n);
 }
 
-// Q7: Check even or odd
+// Q7
 void checkEvenOdd(int marks[], int n) {
     for(int i = 0; i < n; i++) {
         if(marks[i] % 2 == 0) {
@@ -76,7 +76,7 @@ void checkEvenOdd(int marks[], int n) {
     }
 }
 
-// Q8: Find maximum and minimum marks
+// Q8
 void findMaxMin(int marks[], int n) {
     int max = marks[0], min = marks[0];
     for(int i = 1; i < n; i++) {
@@ -86,7 +86,7 @@ void findMaxMin(int marks[], int n) {
     printf("Maximum marks: %d\nMinimum marks: %d\n", max, min);
 }
 
-// Q9: Find peak elements
+// Q9
 void findPeakElement(int arr[], int n) {
     printf("Peak elements: \n");
     for(int i = 0; i < n; i++) {
@@ -96,7 +96,7 @@ void findPeakElement(int arr[], int n) {
     }
 }
 
-// Q10: Count prime numbers
+// Q10
 int isPrime(int num) {
     if(num < 2) return 0;
     for(int i = 2; i <= sqrt(num); i++) {
